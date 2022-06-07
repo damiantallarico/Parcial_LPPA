@@ -134,12 +134,12 @@ window.onload = function() {
         er.classList.add('esconder_error');
     }
 
-    // When the user clicks on <span> (x), close the modal
+    // Clicks en <span> (x), cerrar el modal
     span.onclick = function() {
         modal.style.display = "none";
     }
     
-    // When the user clicks anywhere outside of the modal, close it
+    // Clicks afuera del modal, cerrar
     window.onclick = function(event) {
         if (event.target == modal) {
             modal.style.display = "none";
